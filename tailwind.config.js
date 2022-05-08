@@ -1,7 +1,12 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        // Simplen 3 golumn grid
+        '3' : 'repeat(3, minmax(0, 1fr))',
+      }
+    },
     colors: {
       'base-400':'#c4c4c4',
       'blue-light': '#08caf0',

@@ -8,7 +8,9 @@
 
 <h1>Ariel-William TPC</h1>
 
-<div>
+<div class="grid grid-cols-3 gap-3">
+    <ModuleCard moduleCard={ModuleCard}/>
+    <ModuleCard moduleCard={ModuleCard}/>
     <ModuleCard moduleCard={ModuleCard}/>
 </div>
 
