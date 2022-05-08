@@ -1,2 +1,15 @@
-<h1>Welcome to Ariel-Willam TPC</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import ModuleCard from "../components/moduleCard.svelte";
+</script>
+
+<svelte:head>
+    <title>Trial</title>
+</svelte:head>
+
+<h1>Ariel-William TPC</h1>
+
+<div>
+    <ModuleCard moduleCard={ModuleCard}/>
+</div>
+
+
